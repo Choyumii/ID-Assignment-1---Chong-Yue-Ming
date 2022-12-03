@@ -27,7 +27,7 @@ The website has so far been tested in Google Chrome and Microsoft Edge
 Although unfinished. There is a perfect walkthrough of what the navigation should be like due to the sheer amount of work needed if the navigation must be
 thoroughly completed
 
-# Real world application
+##### Real world application
 
 # ● Clearly understandable site-specific content is used rather than Lorem Ipsum
 
@@ -45,21 +45,25 @@ thoroughly completed
 
 # clearly been followed. All noticeable errors have been corrected or documented.
 
-# Version control systems are used effectively:
+##### Version control systems are used effectively:
 
 # ● all code is managed in git with well-described commit messages
+
+May have not realised about the git function until very late into the assignment, can explain if needed to clarify about code/ where i got the code from
 
 # ● there is a separate, well-defined commit for each individual feature/fit
 
 # ● there are no very large commits which make it harder to understand the development
 
-✓
-
 # process and could lead the assessor to suspect plagiarism
 
-# The full application development process is documented:
+##### The full application development process is documented:
+
+Did not realise about git until late into assignment. I do have zip files of the assignment at different stages and screenshots of early-late versions of the website
 
 # ● the purpose of the application is clearly described in the README
+
+✓
 
 # ● the project's documentation describes the design work undertaken for this project
 
@@ -67,7 +71,7 @@ thoroughly completed
 
 # ● wireframes, mockups, diagrams, etc., created as part of the design process are
 
-# included in the project
+Included in GitHub, Assignment 1 > posters
 
 ##### Credit & Reference
 
