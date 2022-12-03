@@ -3,7 +3,9 @@
 The Project Name is SussyScans
 SussyScans is a Scanlation website that provides translated comics varying from Chinese Manhua and Korean Manhwa to English.
 
-#### Thinking points
+##### Documentation ------------------------------------------------------
+
+##### Thinking points
 
 # ● Is the web site sound and fits the audience intent?
 
@@ -18,9 +20,9 @@ an online collection of comics that were translated by the scanlation group for 
 
 The website has so far been tested in Google Chrome and Microsoft Edge
 
-# ● Is the website developed as close to what was proposed in the wireframe and
+# ● Is the website developed as close to what was proposed in the wireframe and documentation?
 
-# documentation?
+There are a bit of differences, but the website overall followed the
 
 # ● Is the navigation structure sound?
 
@@ -29,9 +31,9 @@ thoroughly completed
 
 ##### Real world application
 
-# ● Clearly understandable site-specific content is used rather than Lorem Ipsum
+# ● Clearly understandable site-specific content is used rather than Lorem Ipsum placeholder text
 
-# placeholder text
+✓
 
 # ● All links to external pages open in a separate tab when clicked
 
@@ -41,9 +43,9 @@ thoroughly completed
 
 ✓
 
-# ● Testing procedures are comprehensive, with a good level of coverage, and have
+# ● Testing procedures are comprehensive, with a good level of coverage, and have clearly been followed. All noticeable errors have been corrected or documented.
 
-# clearly been followed. All noticeable errors have been corrected or documented.
+✓
 
 ##### Version control systems are used effectively:
 
@@ -53,9 +55,11 @@ May have not realised about the git function until very late into the assignment
 
 # ● there is a separate, well-defined commit for each individual feature/fit
 
-# ● there are no very large commits which make it harder to understand the development
+Did not got commits/gits until very late into the assignmen
 
-# process and could lead the assessor to suspect plagiarism
+# ● there are no very large commits which make it harder to understand the development process and could lead the assessor to suspect plagiarism##
+
+The first commit was 80% of the website. I do have older versions of the project that I zip occassionally, also have history in texting and recorded videos documenting my progress on the website.
 
 ##### The full application development process is documented:
 
@@ -65,15 +69,15 @@ Did not realise about git until late into assignment. I do have zip files of the
 
 ✓
 
-# ● the project's documentation describes the design work undertaken for this project
+# ● the project's documentation describes the design work undertaken for this project and the reasoning behind it
 
-# #and the reasoning behind it
+✓
 
 # ● wireframes, mockups, diagrams, etc., created as part of the design process are
 
 Included in GitHub, Assignment 1 > posters
 
-##### Credit & Reference
+##### Credit & References
 
 For swipers on the home page + navigation bar
 https://www.youtube.com/watch?v=1CWw4SgcGbw&t=1124s&ab_channel=DailyWebDesign
