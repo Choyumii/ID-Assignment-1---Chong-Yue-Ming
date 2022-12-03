@@ -95,6 +95,9 @@ https://fonts.google.com/specimen/Dongle?query=dongle+
 For Search Bar
 https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
 
+For Scroll To Top Button
+https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+
 FOr AmongUs Logo https://toppng.com/show_download/474326/among-us-purple-character-png/large
 
 For comic images,
