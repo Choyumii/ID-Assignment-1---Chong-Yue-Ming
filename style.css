@@ -342,18 +342,18 @@ header .icons #menu-bars{
     margin-bottom: 30px;
 }
 
-#LatestNews {
+#LatestFeatured {
     position: relative;
     right: 0;
     top: 0;
     margin-top: 50px;
 }
-#LatestNewsSection{
+#LatestFeaturedSection{
     width: 364px;
     top: 0;
     float: left;
 }
-.insideLatestNews{
+.insideFeatured{
     width: 364px;
 }
 #Heading-box2{
@@ -364,21 +364,16 @@ header .icons #menu-bars{
     align-items: center;
 
 }
-.headingInNews{
-    font-size: 1.6rem;
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-weight: bold;
-}
 
-#LatestNewses{
+#LatestShown{
     margin-top: 30px;
 }
-#ImageOfNews{
+#ImageOfFeatured{
     margin-top: 16px;
     width: 364px;
     position: relative;
 }
-#ImageOfNews img{
+#ImageOfFeatured img{
     width: 364px;
     border-radius: 10px;
 }
@@ -509,10 +504,10 @@ header .icons #myDIV {
         width: 167px;
     }
 
-    #ImageOfNews{
+    #ImageOfFeatured{
         width: 300px;
     }
-    #ImageOfNews img{
+    #ImageOfFeatured img{
         width: 300px;
     }
     #Banners-container{
@@ -523,10 +518,10 @@ header .icons #myDIV {
     }
 
 
-    #LatestNews{
+    #LatestFeatured{
         margin-left: 30px;
     }
-    #LatestNewsSection{
+    #LatestFeaturedSection{
         width: 300px;
     }
 }
@@ -642,10 +637,10 @@ header .icons #myDIV {
         font-size: 0.9em;
     }
 
-    #LatestNews{
+    #LatestFeatured{
         margin-left: 0px;
     }
-    #LatestNewsSection{
+    #LatestFeaturedSection{
         width: 270px;
     }
 }
