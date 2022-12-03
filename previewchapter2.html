@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Max-Level Newbie Chapter 2</title>
+
+    <link rel="shortcut icon" href="images/amongus.png">
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+     body{
+      background:rgb(0, 0, 0);
+    }
+		.container {
+			display: flex;
+			width: 100%;
+			background-color:rgb(0, 0, 0);
+			flex-wrap: wrap;
+			/*wrap flex items to a new row if not enough space */
+
+		}
+
+		/* flex item of 20% per item */
+		.flex-item {
+			padding: 2%;
+			flex-grow: 1;
+			flex-basis: 99%;
+			/* 15% for borders*/
+
+			display: flex;
+			flex-direction: column;
+            justify-content: center;
+            align-items: center;
+			/* so child elements can use flexbox stuff too! */
+			/* switching on borders will force the 5th flex item to move down*/
+			border: 1px solid #000000;
+
+
+			/* let's set random images if we want to create cover images */
+			/*
+      background-image: url("https://picsum.photos/400/400");
+      background-size: cover;
+      */
+		}
+
+		.flex-img img {
+			max-width: 100%;
+		}
+
+		.flex-info {
+			margin-top: auto;
+		}
+
+
+      /* This is a flex shorthand */
+      /* we set 
+        flex-grow: 1; 
+        flex-basis: 21%;
+        Flex shorthand: https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+        Understand flex grow: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow
+      */
+        
+
+
+
+  
+	</style>   
+
+</head>
+<body>
+    
+    <!-- header section start -->
+    <header>
+        <a href="index.html" class="logo"><img src="images/amongus.png"></i>SussyScans.</a>
+        <nav class="navbar">
+             <a href="index.html">home</a>
+             <a href="comics.html">comics</a>
+             <a href="novels.html">novels</a>
+             <a href="aboutus.html">About Us</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+        </div>
+    </header>
+        
+    <section>
+        <section class="container">
+            <a href="previewchapter.html" class="btn">Previous</a><a href="previewchapter3.html" class="btn">Next</a>
+            <div class="flex-item">
+                <div class="flex-img">
+                    <img src="images/2.1.jpg">
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="flex-img">
+                    <img src="images/2.2.jpg">
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="flex-img">
+                    <img src="images/2.3.jpg">
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="flex-img">
+                    <img src="images/2.4.jpg">
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="flex-img">
+                    <img src="images/2.5.jpg">
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="flex-img">
+                    <img src="images/2.6.jpg">
+                </div>
+            </div>
+            <a href="previewchapter.html" class="btn">Previous</a><a href="previewchapter3.html" class="btn">Next</a>
+        </section>
+    </section>          
+    <script src="main.js"></script>
+</body>
+</html>

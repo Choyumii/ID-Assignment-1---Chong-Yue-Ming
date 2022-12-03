@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Mulish:wght@200&family=Nunito:wght@200&family=Rubik:wght@300&family=Zen+Kurenaido&display=swap');
+
+:root{
+    --red:#E50914;
+    --black:#000000;
+    --light-color:#181818;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+body{
+    background-color:var(--light-color)
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top:5.5rem;
+
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+section:nth-child(even){
+    background:var(--light-color)
+}
+
+
+
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 7%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+    box-shadow: var(--box-shadow);
+}
+
+.heading{
+    text-align: center;
+    color: var(--red);
+    margin-bottom: 3rem;
+    font-size:4rem;
+}
+
+.heading2{
+    font-size: 3rem;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+.heading3{
+    font-size: 2rem;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+.btn{
+    margin-top:1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background:var(--red);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.btn:hover{
+    background: var(--black);
+    color: var(--red);
+    letter-spacing: .1rem;
+}
+
+
+header .logo{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+header .logo i{
+    color: var(--red);
+
+}
+
+.logo img {
+    max-height: 60px;
+    justify-content: flex-start;
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: #fff;
+}
+
+
+header .navbar a.active,
+header .navbar a:hover{
+    color: #fff;
+    background: var(--red);
+}
+
+header .icons i,
+header .icons a{
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: #fff;
+    border-radius: 50%;
+    background:var(--red);
+}
+
+header .icons i:hover,
+header .icons a:hover{
+    color: var(--red);
+    background: #fff;
+    transform: rotate(360deg);
+}
+
+header .icons #menu-bars{
+    display: none;
+}
+
+.home{
+    padding:0;
+}
+
+.home .box{
+    min-height: 100vh;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display: flex;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+    justify-content: flex-end;
+    padding:2rem 9%;
+}
+
+.home .box{
+    justify-content: flex-start;
+
+}
+
+
+.home .box .content{
+    width: 50rem;
+
+}
+
+.home .box .content h3{
+    font-size: 6rem;
+    color: #fff;
+    padding-top: .5rem;
+    text-transform: uppercase;
+}
+
+.home .box .content p{
+    line-height: 2;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+
+}
+
+.home .box2{
+    min-height: 100vh;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display: flex;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+    justify-content: flex-end;
+    padding:2rem 9%;
+}
+
+.home .box2{
+    justify-content: center;
+
+}
+
+
+.home .box2 .content{
+    width: 50rem;
+
+}
+
+.home .box2 .content h3{
+    font-size: 6rem;
+    color: #fff;
+    padding-top: .5rem;
+    text-transform: uppercase;
+}
+
+.home .box2 .content p{
+    line-height: 2;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+
+}
+
+.home .box3{
+    min-height: 100vh;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    justify-content: flex-end;
+    padding:2rem 9%;
+    border: 50px solid rgb(0, 0, 0); /* Green border */
+    
+}
+
+
+.home .box3 .content p{
+    line-height: 2;
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+
+}
+
+.home .box3 .content h3{
+    font-size: 6rem;
+    color: #fff;
+    padding-top: .5rem;
+    text-transform: uppercase;
+}
+
+.btn-group button {
+    background-color: #859b93; /* Green background */
+    border: 1px solid rgb(0, 0, 0); /* Green border */
+    color: #fff; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100rem; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    text-align: left;
+  }
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+  .btn-spacing{
+   margin-bottom: 3px;
+  }
+
+
+/* Show section */
+#AllBanners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+#primaryMainContainer{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns:auto auto;
+}
+#contentBanners{
+    width: 769px;
+}
+
+/* Other Banners  */
+
+/* All shows banners  */
+#MainContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+
+}
+#Heading-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-left: 5px solid red;
+    height: 12%;
+    padding: 0 12px;
+    align-items: center;
+}
+
+#Banners-container{
+    margin-top: 19px;
+    width: 770px;
+    flex-wrap: wrap;
+    display: flex;
+}
+#Banners-container img{
+    width: 217px;
+    border-radius: 5px;
+    margin-right:20px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.Image-Name{
+    position: relative;
+    color: white;
+    width: 217px;
+    padding-right: 30px;
+}
+
+.show-name{
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+#LatestNews {
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-top: 50px;
+}
+#LatestNewsSection{
+    width: 364px;
+    top: 0;
+    float: left;
+}
+.insideLatestNews{
+    width: 364px;
+}
+#Heading-box2{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-left: 5px solid red;
+    padding: 0 12px;
+    align-items: center;
+
+}
+.headingInNews{
+    font-size: 1.6rem;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+}
+
+#LatestNewses{
+    margin-top: 30px;
+}
+#ImageOfNews{
+    margin-top: 16px;
+    width: 364px;
+    position: relative;
+}
+#ImageOfNews img{
+    width: 364px;
+    border-radius: 10px;
+}
+
+.name{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+#myBtn {
+display: none; /* Hidden by default */
+position: fixed; /* Fixed/sticky position */
+bottom: 20px; /* Place the button at the bottom of the page */
+right: 30px; /* Place the button 30px from the right */
+z-index: 99; /* Make sure it does not overlap */
+border: none; /* Remove borders */
+outline: none; /* Remove outline */
+background-color: red; /* Set a background color */
+color: white; /* Text color */
+cursor: pointer; /* Add a mouse pointer on hover */
+padding: 15px; /* Some padding */
+border-radius: 10px; /* Rounded corners */
+font-size: 18px; /* Increase font size */
+
+}
+
+#myBtn:hover {
+background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
+
+
+
+
+
+header .icons #myDIV {
+    display: none;
+}
+
+
+
+header .icons #myDIV {
+    float: right;
+    margin-top: 8px;
+    font-size: 17px;
+    padding: 6px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media(max-width: 991px){
+    html{
+        font-size: 55%;
+
+    }
+    header{
+        padding: 1rem 2rem;
+    }
+
+}
+
+@media(max-width: 768px){
+    header .icons #menu-bars{
+        display: inline-block;
+    }
+    header .navbar{
+        position: absolute;
+        top: 10%;
+        left: 0;
+        right: 0;
+        background: var(--black);
+        border-top: .1rem solid rgba(0,0,0,.2);
+        border-bottom: .1rem solid rgba(0,0,0,.2);
+        padding:1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        z-index:2;
+    }
+    header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    header .navbar a{
+        display:block;
+        padding:1.5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        background: var(--red);
+    }
+} 
+
+@media(max-width: 468px){
+    html{
+        font-size: 50%;
+    }
+}
+@media only screen and (max-width:1132px) {
+
+    .slider{
+        width: 860px;
+    }
+
+
+    #contentBanners{
+        width: 537px;
+        flex-wrap: wrap;
+    }
+    .Image-Name{
+        padding-right: 12px;
+        width: 167px;
+    }
+
+    #ImageOfNews{
+        width: 300px;
+    }
+    #ImageOfNews img{
+        width: 300px;
+    }
+    #Banners-container{
+        width: 537px;
+    }
+    #Banners-container img{
+        width: 167px;
+    }
+
+
+    #LatestNews{
+        margin-left: 30px;
+    }
+    #LatestNewsSection{
+        width: 300px;
+    }
+}
+@media only screen and  (max-width:900px){
+    #Menu-Btn{
+        display: block;
+    }
+    #other-opt button{
+        margin-right: 70px;
+        
+    }
+    #Navbar ul li{
+        display: none;
+    }
+
+
+    .slider{
+        width: 700px;
+    }
+    .slider img{
+        width: 621px;
+        height: 307px;
+    }
+
+    #contentBanners{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+
+
+    #primaryMainContainer{
+
+        grid-template-columns:auto ;
+        grid-template-rows: auto auto;
+    }
+    #Banners-container{
+        width: 700px;
+    }
+
+
+
+
+    .Image-Name{
+        padding-right: 12px;
+        width: 163px;
+    }
+}
+
+@media only screen and  (max-width:730px){
+    .slider{
+        width: 540px;
+    }
+
+    #contentBanners{
+        width: 540px;
+        flex-wrap: wrap;
+    }
+    #Banners-container{
+        width: 540px;
+    }
+}
+@media only screen and  (max-width:550px){
+    .slider{
+        width: 380px;
+        height: 400px;
+    }
+
+    #contentBanners{
+        width: 380px;
+        flex-wrap: wrap;
+    }
+    #Banners-container{
+        width: 380px;
+    }
+
+    .Image-Name{
+        padding-right: 12px;
+        width: 178px;
+    }
+    #Banners-container img{
+        width: 182px;
+    }
+}
+@media only screen and  (max-width:400px){
+    .slider{
+        width: 290px;
+        height: 250px;
+    }
+    #other-opt{
+        display: none;
+    }
+    #Menu-Btn{
+        display: block;
+
+    }
+    #contentBanners{
+        width: 300px;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    #Banners-container{
+        width: 300px;
+        margin: auto;
+    }
+    .Image-Name{
+        padding-right: 12px;
+        width: 138px;
+    }
+    #Banners-container img{
+        width: 140px;
+    }
+    #Heading-box{
+        font-size: 0.9em;
+    }
+
+    #LatestNews{
+        margin-left: 0px;
+    }
+    #LatestNewsSection{
+        width: 270px;
+    }
+}
+
