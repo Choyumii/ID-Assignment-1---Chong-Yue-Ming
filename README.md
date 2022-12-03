@@ -95,6 +95,8 @@ https://fonts.google.com/specimen/Dongle?query=dongle+
 For Search Bar
 https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
 
+FOr AmongUs Logo https://toppng.com/show_download/474326/among-us-purple-character-png/large
+
 For comic images,
 The Greatest Estate Developer https://asura.gg/manga/the-greatest-estate-developer/
 Solo Max-Level Newbie https://asura.gg/manga/solo-max-level-newbie/
