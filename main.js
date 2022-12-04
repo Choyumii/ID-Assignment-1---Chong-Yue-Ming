@@ -1,7 +1,6 @@
 let menu = document.querySelector("#menu-bars");
 let navbar = document.querySelector(".navbar");
 let searchicon = document.querySelector("#search-icon");
-var y = 0
 
 menu.onclick = () => {
   menu.classList.toggle("fa-times");
