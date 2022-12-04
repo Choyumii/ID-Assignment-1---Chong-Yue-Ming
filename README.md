@@ -1,7 +1,128 @@
 # Assignment-1
 
-The Project Name is SussyScans
+
+
+<h1>SussyScans</h1>
+
 SussyScans is a Scanlation website that provides translated comics varying from Chinese Manhua and Korean Manhwa to English.
+The Website itself serves as a catalogue of works that the Scanlation has translated themselves/ got the permission to upload on their website
+The Website fits the users' needs as it allows them to browse through to find and read comics that they want to read easily
+
+To summarise,
+an online collection of comics that were translated by the scanlation group for others to read and enjoy
+
+Design Process--------------------------------
+I wanted the design to be simplistic and focused on the main functionality of this website, reading. When thinking about it, I did not want the website to have too many 
+eye-catching visuals which distract the user from their main goal. The only eye-catching I need is the one that entices each user to read the comic/novel. As a person that visits such websites regularly, I'd set high-standards on myself as though I am a visitor when visiting the website itself
+
+As a reader, I like to read stories to pass time. What I want is a simply designed website that I can use to fulfill what I want the most - Reading. 
+
+There are two different wireframes that I have, the first and secondwireframe. The first one is hand-drawn while the second is done is Adobe XD. Both files are accessible in VS Code in the wireframes folder.
+
+Features/Existing Features--------------------------------
+Navigation Bar
+Links to index.html, comics.html, novels.html, aboutus.html.
+The navbar changes to window styled when there is no space to contain the entire navigation bar(can be toggle)
+Search Icon that when clicked expands into a search bar
+
+Swiper
+displays 4 featured comics/novels. Rotates to a different comic every now and then or can be changed by clicking on the image and dragging it to swipe to the next image
+
+View All (Arrow)
+Links to respective catagory (comics/novels)
+
+View More 
+Links to respective story
+
+Comic Chapters
+Goes to a respective chapter for that story. Displays only the latest 2 chapters that were released. Comics are image only
+(Most are standardized at previewchapter.html (for solonewbie) due to the sheer amount of effort needed (downloading and more html pages))
+
+Novel Chapters
+Goes to a respective chapter for that story. Displays only the latest 2 chapters that were released. Novels are text only
+(Most are standardized at previewchapter.html (for solonewbie) due to the sheer amount of effort needed (downloading and more html page
+
+Comic/Novel Image
+Clicking on Image will bring you to their respective story page
+(Most are standardized at solonewbie.html due to the sheer amount of effort needed (downloading and more html pages))
+
+Featured
+Displays top comics/novels currently on the website with a star rating
+
+Back (In Specific Comic/Novel Page)
+Sends user back to home page
+(Only the featured comics have their pages. The rest are sent to solonewbie.html)
+
+First Chapter/ Last Chapter(In Specific Comic/Novel Page)
+Sends user to the first or last chapter posted for the comic 
+(only solonewbie.html has the function working due to the sheer amount of effort needed (downloading and more html pages))
+
+Chapter Button(In Specific Comic/Novel Page)
+Sends user to specified chapter
+(only solonewbie.html has the function working due to the sheer amount of effort needed (downloading and more html pages))
+
+Scroll To Top
+Sends user to top of page. Button appears shortly after user scrolls down a certain amount.
+
+
+
+
+Features Left to Implement ------------------------------
+Navigation Chapter Bar (Toggleable) For Comic/Novel Chapters
+SearchBar (Able to search since it is static right now)
+Make and sign into an account
+Capability to Bookmark 
+Capability to Rate Stories 
+
+
+Content Percentages (Rounded)----------------------------------
+HTML - 87%
+CSS - 12%
+JS - 1%
+
+I'd like to learn to make more use of JS because most of the code has alot of hardcoding
+
+Credits-------------------------
+Inspiration and References are stated in Credits and References
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ##### Documentation ------------------------------------------------------
 
@@ -129,3 +250,12 @@ Naucht https://www.wattpad.com/story/249552926-naucht
 The Survival of an Inferior https://www.wattpad.com/story/327297912-the-survival-of-an-inferior
 An Antogonist's Revenge https://www.wattpad.com/story/210476455-the-antagonist%27s-revenge
 Villain of Plague https://www.wattpad.com/story/313260986-villain-of-plague
+
+
+Inspiration
+As a manga reader, I have inspiration from these sites
+https://asura.gg/
+https://flamescans.org/twinkletwinkle/series/
+https://mm-scans.org/
+https://reaperscans.com/
+https://realmscans.com/
