@@ -77,8 +77,8 @@ Capability to Rate Stories
 
 Content Percentages (Rounded)----------------------------------
 HTML - 87%
-CSS - 12%
-JS - 1%
+CSS - 11%
+JS - 2%
 
 I'd like to learn to make more use of JS because most of the code has alot of hardcoding
 
