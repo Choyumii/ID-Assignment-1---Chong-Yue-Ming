@@ -26,7 +26,7 @@ var swiper = new Swiper(".home-slider", {
     clickable: true,
   },
   loop: true,
-  
+
 });
 
 
@@ -37,25 +37,10 @@ function myFunction() {
   var x = document.getElementById("myDIV");
   if (x.style.display === "block") {
     x.style.display = "none";
-    
-    if ((y % 1 ) == 0) {
-      searchicon.classList.toggle("fa-times");
-      ++y
-    } 
-    if ((y % 1 ) != 0) {
-      searchbar.classList.toggle("active");
-      ++y
-    }
-  } 
+    searchicon.classList.toggle("fa-times");
+  }
   else {
     x.style.display = "block";
-    if ((y % 1 ) == 0) {
-      searchicon.classList.toggle("fa-times");
-      ++y
-    } 
-    if ((y % 1 ) != 0) {
-      searchbar.classList.toggle("active");
-      ++y
-    }
+    searchicon.classList.toggle("fa-times");
   }
 }
