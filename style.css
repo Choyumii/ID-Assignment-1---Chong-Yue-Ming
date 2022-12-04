@@ -311,7 +311,7 @@ header .icons #menu-bars {
 /* Other Banners  */
 
 /* All shows banners  */
-#MainContainer {
+.MainContainer {
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -319,25 +319,7 @@ header .icons #menu-bars {
 
 }
 
-#Heading-box {
-    display: grid;
-    grid-template-columns: auto auto;
-    border-left: 5px solid red;
-    height: 12%;
-    padding: 0 12px;
-    align-items: center;
-}
-
-#Heading-box2 {
-    display: grid;
-    grid-template-columns: auto auto;
-    border-left: 5px solid red;
-    height: 12%;
-    padding: 0 12px;
-    align-items: center;
-}
-
-#Heading-box3 {
+.Heading-box {
     display: grid;
     grid-template-columns: auto auto;
     border-left: 5px solid red;
@@ -360,7 +342,6 @@ header .icons #menu-bars {
     margin-top: 12px;
     cursor: pointer;
 }
-
 
 .Image-Name {
     position: relative;
@@ -393,7 +374,7 @@ header .icons #menu-bars {
     width: 364px;
 }
 
-#Heading-box4 {
+#Heading-box2 {
     display: grid;
     grid-template-columns: auto auto;
     border-left: 5px solid red;
@@ -547,19 +528,19 @@ header .icons #myDIV {
         width: 167px;
     }
 
-    #ImageOfFeatured {
+    .ImageOfFeatured {
         width: 300px;
     }
 
-    #ImageOfFeatured img {
+    .ImageOfFeatured img {
         width: 300px;
     }
 
-    .banners-container {
+    .Banners-container {
         width: 537px;
     }
 
-    .banners-container img {
+    .Banners-container img {
         width: 167px;
     }
 
@@ -609,7 +590,7 @@ header .icons #myDIV {
         grid-template-rows: auto auto;
     }
 
-    .banners-container {
+    .Banners-container {
         width: 700px;
     }
 
@@ -632,7 +613,7 @@ header .icons #myDIV {
         flex-wrap: wrap;
     }
 
-    .banners-container {
+    .Banners-container {
         width: 540px;
     }
 }
@@ -648,7 +629,7 @@ header .icons #myDIV {
         flex-wrap: wrap;
     }
 
-    .banners-container {
+    .Banners-container {
         width: 380px;
     }
 
@@ -657,7 +638,7 @@ header .icons #myDIV {
         width: 178px;
     }
 
-    .banners-container img {
+    .Banners-container img {
         width: 182px;
     }
 }
@@ -683,7 +664,7 @@ header .icons #myDIV {
         margin: auto;
     }
 
-    .banners-container {
+    .Banners-container {
         width: 300px;
         margin: auto;
     }
@@ -693,23 +674,11 @@ header .icons #myDIV {
         width: 138px;
     }
 
-    .banners-container img {
+    .Banners-container img {
         width: 140px;
     }
 
-    #Heading-box {
-        font-size: 0.9em;
-    }
-
-    #Heading-box2 {
-        font-size: 0.9em;
-    }
-
-    #Heading-box3 {
-        font-size: 0.9em;
-    }
-
-    #Heading-box4 {
+    .Heading-box {
         font-size: 0.9em;
     }
 
