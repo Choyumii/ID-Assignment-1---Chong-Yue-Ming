@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Ubuntu:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Mulish:wght@200&family=Nunito:wght@200&family=Rubik:wght@300&family=Zen+Kurenaido&display=swap');
 
-:root{
-    --red:#E50914;
-    --black:#000000;
-    --light-color:#181818;
-    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+:root {
+    --red: #E50914;
+    --black: #000000;
+    --light-color: #181818;
+    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
 }
 
 
 
-*{
+* {
     font-family: 'Nunito Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -22,87 +22,88 @@
     text-transform: capitalize;
     transition: all .2s linear;
 }
-body{
-    background-color:var(--light-color)
+
+body {
+    background-color: var(--light-color)
 }
 
-html{
+html {
     font-size: 62.5%;
     overflow-x: hidden;
-    scroll-padding-top:5.5rem;
+    scroll-padding-top: 5.5rem;
 
 }
 
-section{
+section {
     padding: 2rem 9%;
 }
 
-section:nth-child(even){
-    background:var(--light-color)
+section:nth-child(even) {
+    background: var(--light-color)
 }
 
 
 
-header{
+header {
     top: 0;
     left: 0;
     right: 0;
     padding: 1rem 7%;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 10000;
     box-shadow: var(--box-shadow);
 }
 
-.heading{
+.heading {
     text-align: center;
     color: var(--red);
     margin-bottom: 3rem;
-    font-size:4rem;
+    font-size: 4rem;
 }
 
-.heading2{
+.heading2 {
     font-size: 3rem;
     font-family: 'Zen Kurenaido', sans-serif;
     font-weight: bold;
     color: #fff;
-    
+
 }
 
-.heading3{
+.heading3 {
     font-size: 2rem;
     font-family: 'Zen Kurenaido', sans-serif;
     font-weight: bold;
     color: #fff;
-    
+
 }
 
-.btn{
-    margin-top:1rem;
+.btn {
+    margin-top: 1rem;
     display: inline-block;
     font-size: 1.7rem;
     color: #fff;
-    background:var(--red);
+    background: var(--red);
     border-radius: .5rem;
     cursor: pointer;
     padding: .8rem 3rem;
 }
 
-.btn:hover{
+.btn:hover {
     background: var(--black);
     color: var(--red);
     letter-spacing: .1rem;
 }
 
 
-header .logo{
+header .logo {
     color: #fff;
     font-size: 2.5rem;
     font-weight: bolder;
 }
 
-header .logo i{
+header .logo i {
     color: var(--red);
 
 }
@@ -112,7 +113,7 @@ header .logo i{
     justify-content: flex-start;
 }
 
-header .navbar a{
+header .navbar a {
     font-size: 1.7rem;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
@@ -121,13 +122,13 @@ header .navbar a{
 
 
 header .navbar a.active,
-header .navbar a:hover{
+header .navbar a:hover {
     color: #fff;
     background: var(--red);
 }
 
 header .icons i,
-header .icons a{
+header .icons a {
     cursor: pointer;
     margin-left: .5rem;
     height: 4.5rem;
@@ -137,55 +138,55 @@ header .icons a{
     font-size: 1.7rem;
     color: #fff;
     border-radius: 50%;
-    background:var(--red);
+    background: var(--red);
 }
 
 header .icons i:hover,
-header .icons a:hover{
+header .icons a:hover {
     color: var(--red);
     background: #fff;
     transform: rotate(360deg);
 }
 
-header .icons #menu-bars{
+header .icons #menu-bars {
     display: none;
 }
 
-.home{
-    padding:0;
+.home {
+    padding: 0;
 }
 
-.home .box{
+.home .box {
     min-height: 100vh;
-    display:-webkit-box;
-    display:-ms-flexbox;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     background-size: cover !important;
     background-position: center !important;
     justify-content: flex-end;
-    padding:2rem 9%;
+    padding: 2rem 9%;
 }
 
-.home .box{
+.home .box {
     justify-content: flex-start;
 
 }
 
 
-.home .box .content{
+.home .box .content {
     width: 50rem;
 
 }
 
-.home .box .content h3{
+.home .box .content h3 {
     font-size: 6rem;
     color: #fff;
     padding-top: .5rem;
     text-transform: uppercase;
 }
 
-.home .box .content p{
+.home .box .content p {
     line-height: 2;
     color: #fff;
     font-size: 1.5rem;
@@ -193,37 +194,37 @@ header .icons #menu-bars{
 
 }
 
-.home .box2{
+.home .box2 {
     min-height: 100vh;
-    display:-webkit-box;
-    display:-ms-flexbox;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     align-items: center;
     background-size: cover !important;
     background-position: center !important;
     justify-content: flex-end;
-    padding:2rem 9%;
+    padding: 2rem 9%;
 }
 
-.home .box2{
+.home .box2 {
     justify-content: center;
 
 }
 
 
-.home .box2 .content{
+.home .box2 .content {
     width: 50rem;
 
 }
 
-.home .box2 .content h3{
+.home .box2 .content h3 {
     font-size: 6rem;
     color: #fff;
     padding-top: .5rem;
     text-transform: uppercase;
 }
 
-.home .box2 .content p{
+.home .box2 .content p {
     line-height: 2;
     color: #fff;
     font-size: 1.5rem;
@@ -231,18 +232,19 @@ header .icons #menu-bars{
 
 }
 
-.home .box3{
+.home .box3 {
     min-height: 100vh;
-    display:-webkit-box;
-    display:-ms-flexbox;
+    display: -webkit-box;
+    display: -ms-flexbox;
     justify-content: flex-end;
-    padding:2rem 9%;
-    border: 50px solid rgb(0, 0, 0); /* Green border */
-    
+    padding: 2rem 9%;
+    border: 50px solid rgb(0, 0, 0);
+    /* Green border */
+
 }
 
 
-.home .box3 .content p{
+.home .box3 .content p {
     line-height: 2;
     color: #fff;
     font-size: 1.7rem;
@@ -250,7 +252,7 @@ header .icons #menu-bars{
 
 }
 
-.home .box3 .content h3{
+.home .box3 .content h3 {
     font-size: 6rem;
     color: #fff;
     padding-top: .5rem;
@@ -258,25 +260,34 @@ header .icons #menu-bars{
 }
 
 .btn-group button {
-    background-color: #859b93; /* Green background */
-    border: 1px solid rgb(0, 0, 0); /* Green border */
-    color: #fff; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 100rem; /* Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
+    background-color: #859b93;
+    /* Green background */
+    border: 1px solid rgb(0, 0, 0);
+    /* Green border */
+    color: #fff;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    width: 100rem;
+    /* Set a width if needed */
+    display: block;
+    /* Make the buttons appear below each other */
     text-align: left;
-  }
-  .btn-group button:hover {
+}
+
+.btn-group button:hover {
     background-color: #3e8e41;
-  }
-  .btn-spacing{
-   margin-bottom: 3px;
-  }
+}
+
+.btn-spacing {
+    margin-bottom: 3px;
+}
 
 
 /* Show section */
-#AllBanners{
+#AllBanners {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -286,26 +297,29 @@ header .icons #menu-bars{
     margin-right: auto;
     flex-wrap: wrap;
 }
-#primaryMainContainer{
+
+#primaryMainContainer {
     /* width: 100%; */
     display: grid;
-    grid-template-columns:auto auto;
+    grid-template-columns: auto auto;
 }
-#contentBanners{
+
+#contentBanners {
     width: 769px;
 }
 
 /* Other Banners  */
 
 /* All shows banners  */
-#MainContainer{
+#MainContainer {
     display: flex;
     justify-content: center;
     margin-top: 50px;
     flex-direction: column;
 
 }
-#Heading-box{
+
+#Heading-box {
     display: grid;
     grid-template-columns: auto auto;
     border-left: 5px solid red;
@@ -314,28 +328,48 @@ header .icons #menu-bars{
     align-items: center;
 }
 
-#Banners-container{
+#Heading-box2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-left: 5px solid red;
+    height: 12%;
+    padding: 0 12px;
+    align-items: center;
+}
+
+#Heading-box3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-left: 5px solid red;
+    height: 12%;
+    padding: 0 12px;
+    align-items: center;
+}
+
+.Banners-container {
     margin-top: 19px;
     width: 770px;
     flex-wrap: wrap;
     display: flex;
 }
-#Banners-container img{
+
+.Banners-container img {
     width: 217px;
     border-radius: 5px;
-    margin-right:20px;
+    margin-right: 20px;
     margin-top: 12px;
     cursor: pointer;
 }
 
-.Image-Name{
+
+.Image-Name {
     position: relative;
     color: white;
     width: 217px;
     padding-right: 30px;
 }
 
-.show-name{
+.show-name {
     font-size: 2rem;
     font-family: 'Nunito', sans-serif;
     cursor: pointer;
@@ -348,15 +382,18 @@ header .icons #menu-bars{
     top: 0;
     margin-top: 50px;
 }
-#LatestFeaturedSection{
+
+#LatestFeaturedSection {
     width: 364px;
     top: 0;
     float: left;
 }
-.insideFeatured{
+
+.insideFeatured {
     width: 364px;
 }
-#Heading-box2{
+
+#Heading-box4 {
     display: grid;
     grid-template-columns: auto auto;
     border-left: 5px solid red;
@@ -365,20 +402,22 @@ header .icons #menu-bars{
 
 }
 
-#LatestShown{
+#LatestShown {
     margin-top: 30px;
 }
-#ImageOfFeatured{
+
+.ImageOfFeatured {
     margin-top: 16px;
     width: 364px;
     position: relative;
 }
-#ImageOfFeatured img{
+
+.ImageOfFeatured img {
     width: 364px;
     border-radius: 10px;
 }
 
-.name{
+.name {
     position: absolute;
     bottom: 30px;
     left: 10px;
@@ -389,23 +428,23 @@ header .icons #menu-bars{
 }
 
 #myBtn {
-display: none;
-position: fixed;
-bottom: 20px;
-right: 30px;
-z-index: 99;
-font-size: 18px;
-border: none;
-outline: none;
-background-color: red;
-color: white;
-cursor: pointer;
-padding: 15px;
-border-radius: 4px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
 }
 
 #myBtn:hover {
-background-color: #555;
+    background-color: #555;
 }
 
 
@@ -442,204 +481,243 @@ header .icons #myDIV {
 
 
 /* media query */
-@media(max-width: 991px){
-    html{
+@media(max-width: 991px) {
+    html {
         font-size: 55%;
 
     }
-    header{
+
+    header {
         padding: 1rem 2rem;
     }
 
 }
 
-@media(max-width: 768px){
-    header .icons #menu-bars{
+@media(max-width: 768px) {
+    header .icons #menu-bars {
         display: inline-block;
     }
-    header .navbar{
+
+    header .navbar {
         position: absolute;
         top: 10%;
         left: 0;
         right: 0;
         background: var(--black);
-        border-top: .1rem solid rgba(0,0,0,.2);
-        border-bottom: .1rem solid rgba(0,0,0,.2);
-        padding:1rem;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        border-bottom: .1rem solid rgba(0, 0, 0, .2);
+        padding: 1rem;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        z-index:2;
+        z-index: 2;
     }
-    header .navbar.active{
+
+    header .navbar.active {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
-    header .navbar a{
-        display:block;
-        padding:1.5rem;
+
+    header .navbar a {
+        display: block;
+        padding: 1.5rem;
         margin: 1rem;
         font-size: 2rem;
         background: var(--red);
     }
-} 
+}
 
-@media(max-width: 468px){
-    html{
+@media(max-width: 468px) {
+    html {
         font-size: 50%;
     }
 }
+
 @media only screen and (max-width:1132px) {
 
-    .slider{
+    .slider {
         width: 860px;
     }
 
 
-    #contentBanners{
+    #contentBanners {
         width: 537px;
         flex-wrap: wrap;
     }
-    .Image-Name{
+
+    .Image-Name {
         padding-right: 12px;
         width: 167px;
     }
 
-    #ImageOfFeatured{
+    #ImageOfFeatured {
         width: 300px;
     }
-    #ImageOfFeatured img{
+
+    #ImageOfFeatured img {
         width: 300px;
     }
-    #Banners-container{
+
+    .banners-container {
         width: 537px;
     }
-    #Banners-container img{
+
+    .banners-container img {
         width: 167px;
     }
 
 
-    #LatestFeatured{
+    #LatestFeatured {
         margin-left: 30px;
     }
-    #LatestFeaturedSection{
+
+    #LatestFeaturedSection {
         width: 300px;
     }
 }
-@media only screen and  (max-width:900px){
-    #Menu-Btn{
+
+@media only screen and (max-width:900px) {
+    #Menu-Btn {
         display: block;
     }
-    #other-opt button{
+
+    #other-opt button {
         margin-right: 70px;
-        
+
     }
-    #Navbar ul li{
+
+    #Navbar ul li {
         display: none;
     }
 
 
-    .slider{
+    .slider {
         width: 700px;
     }
-    .slider img{
+
+    .slider img {
         width: 621px;
         height: 307px;
     }
 
-    #contentBanners{
+    #contentBanners {
         width: 700px;
         flex-wrap: wrap;
     }
 
 
-    #primaryMainContainer{
+    #primaryMainContainer {
 
-        grid-template-columns:auto ;
+        grid-template-columns: auto;
         grid-template-rows: auto auto;
     }
-    #Banners-container{
+
+    .banners-container {
         width: 700px;
     }
 
 
 
 
-    .Image-Name{
+    .Image-Name {
         padding-right: 12px;
         width: 163px;
     }
 }
 
-@media only screen and  (max-width:730px){
-    .slider{
+@media only screen and (max-width:730px) {
+    .slider {
         width: 540px;
     }
 
-    #contentBanners{
+    #contentBanners {
         width: 540px;
         flex-wrap: wrap;
     }
-    #Banners-container{
+
+    .banners-container {
         width: 540px;
     }
 }
-@media only screen and  (max-width:550px){
-    .slider{
+
+@media only screen and (max-width:550px) {
+    .slider {
         width: 380px;
         height: 400px;
     }
 
-    #contentBanners{
+    #contentBanners {
         width: 380px;
         flex-wrap: wrap;
     }
-    #Banners-container{
+
+    .banners-container {
         width: 380px;
     }
 
-    .Image-Name{
+    .Image-Name {
         padding-right: 12px;
         width: 178px;
     }
-    #Banners-container img{
+
+    .banners-container img {
         width: 182px;
     }
 }
-@media only screen and  (max-width:400px){
-    .slider{
+
+@media only screen and (max-width:400px) {
+    .slider {
         width: 290px;
         height: 250px;
     }
-    #other-opt{
+
+    #other-opt {
         display: none;
     }
-    #Menu-Btn{
+
+    #Menu-Btn {
         display: block;
 
     }
-    #contentBanners{
+
+    #contentBanners {
         width: 300px;
         flex-wrap: wrap;
         margin: auto;
     }
-    #Banners-container{
+
+    .banners-container {
         width: 300px;
         margin: auto;
     }
-    .Image-Name{
+
+    .Image-Name {
         padding-right: 12px;
         width: 138px;
     }
-    #Banners-container img{
+
+    .banners-container img {
         width: 140px;
     }
-    #Heading-box{
+
+    #Heading-box {
         font-size: 0.9em;
     }
 
-    #LatestFeatured{
+    #Heading-box2 {
+        font-size: 0.9em;
+    }
+
+    #Heading-box3 {
+        font-size: 0.9em;
+    }
+
+    #Heading-box4 {
+        font-size: 0.9em;
+    }
+
+    #LatestFeatured {
         margin-left: 0px;
     }
-    #LatestFeaturedSection{
+
+    #LatestFeaturedSection {
         width: 270px;
     }
 }
-
